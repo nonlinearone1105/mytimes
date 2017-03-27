@@ -36,3 +36,32 @@ nav span {
 nav a {
   color: black;
 }
+
+div {
+  border: 1px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 36px;
+}
+
+.column {
+  display: flex;
+  flex-flow: column wrap;
+  flex-shrink: 1;
+  margin-right: 32px;
+}
+
+.column .large {
+  width: 630px;
+}
+
+.column .medium {
+  width: 300px;
+}
+
+.column .small {
+  width: 240 px;
+}
